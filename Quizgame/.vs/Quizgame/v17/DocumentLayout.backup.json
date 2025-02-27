@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|c:\\users\\nguye\\desktop\\2025\\csci 3037\\trash\\quizgame-20250131t184636z-001\\quizgame\\quizgame\\quizform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|solutionrelative:quizgame\\quizform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\quizgame\\quizform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|solutionrelative:quizgame\\quizform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\quizgame\\quizform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|solutionrelative:quizgame\\quizform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\quizgame\\questionparserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|solutionrelative:quizgame\\questionparserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\quizgame\\contentinputform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|solutionrelative:quizgame\\contentinputform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\quizgame\\contentinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|solutionrelative:quizgame\\contentinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\quizgame\\contentinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|solutionrelative:quizgame\\contentinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\quizgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|solutionrelative:quizgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\quizgame\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}|Quizgame\\Quizgame.csproj|solutionrelative:quizgame\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 672,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuizForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\QuizForm.Designer.cs",
+              "RelativeDocumentMoniker": "Quizgame\\QuizForm.Designer.cs",
+              "ToolTip": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\QuizForm.Designer.cs",
+              "RelativeToolTip": "Quizgame\\QuizForm.Designer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwMEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T18:04:59.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuestionParserService.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\QuestionParserService.cs",
+              "RelativeDocumentMoniker": "Quizgame\\QuestionParserService.cs",
+              "ToolTip": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\QuestionParserService.cs",
+              "RelativeToolTip": "Quizgame\\QuestionParserService.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAAAHcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T21:43:54.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuizForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\QuizForm.cs",
+              "RelativeDocumentMoniker": "Quizgame\\QuizForm.cs",
+              "ToolTip": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\QuizForm.cs [Design]",
+              "RelativeToolTip": "Quizgame\\QuizForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T22:42:37.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuizForm.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\QuizForm.cs",
+              "RelativeDocumentMoniker": "Quizgame\\QuizForm.cs",
+              "ToolTip": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\QuizForm.cs",
+              "RelativeToolTip": "Quizgame\\QuizForm.cs",
+              "ViewState": "AgIAAF8BAAAAAAAAAAAAAG4BAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T05:53:49.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContentInputForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\ContentInputForm.Designer.cs",
+              "RelativeDocumentMoniker": "Quizgame\\ContentInputForm.Designer.cs",
+              "ToolTip": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\ContentInputForm.Designer.cs",
+              "RelativeToolTip": "Quizgame\\ContentInputForm.Designer.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAcwH4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T21:06:22.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContentInputForm.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\ContentInputForm.cs",
+              "RelativeDocumentMoniker": "Quizgame\\ContentInputForm.cs",
+              "ToolTip": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\ContentInputForm.cs",
+              "RelativeToolTip": "Quizgame\\ContentInputForm.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAYwEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T08:30:06.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContentInputForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\ContentInputForm.cs",
+              "RelativeDocumentMoniker": "Quizgame\\ContentInputForm.cs",
+              "ToolTip": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\ContentInputForm.cs [Design]",
+              "RelativeToolTip": "Quizgame\\ContentInputForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T08:25:20.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\Program.cs",
+              "RelativeDocumentMoniker": "Quizgame\\Program.cs",
+              "ToolTip": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\Program.cs",
+              "RelativeToolTip": "Quizgame\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T22:44:42.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\App.config",
+              "RelativeDocumentMoniker": "Quizgame\\App.config",
+              "ToolTip": "C:\\Users\\nguye\\Desktop\\2025\\CSCI 3037\\trash\\Quizgame-20250131T184636Z-001\\Quizgame\\Quizgame\\App.config",
+              "RelativeToolTip": "Quizgame\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-01-31T22:45:00.657Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 234,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\Quizgame.exe.config
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\Quizgame.exe
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\Quizgame.pdb
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\obj\Debug\Quizgame.csproj.AssemblyReference.cache
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\obj\Debug\Quizgame.Properties.Resources.resources
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\obj\Debug\Quizgame.csproj.GenerateResource.cache
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\obj\Debug\Quizgame.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\obj\Debug\Quizgame.exe
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\obj\Debug\Quizgame.pdb
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.Buffers.dll
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.IO.Pipelines.dll
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.Memory.dll
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.Text.Json.dll
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.ValueTuple.dll
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.Buffers.xml
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.IO.Pipelines.xml
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.Memory.xml
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.Text.Json.xml
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\bin\Debug\System.ValueTuple.xml
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\obj\Debug\Quizgame.ContentInputForm.resources
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\obj\Debug\Quizgame.QuizForm.resources
+C:\Users\nguye\Desktop\2025\MTSU 2025\CSCI 3037\trash\Quizgame\Quizgame\obj\Debug\Quizgame.csproj.Up2Date
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\Quizgame.exe.config
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\Quizgame.exe
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\Quizgame.pdb
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.Buffers.dll
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.IO.Pipelines.dll
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.Memory.dll
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.Text.Json.dll
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.ValueTuple.dll
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.Buffers.xml
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.IO.Pipelines.xml
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.Memory.xml
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.Text.Json.xml
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\bin\Debug\System.ValueTuple.xml
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\obj\Debug\Quizgame.csproj.AssemblyReference.cache
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\obj\Debug\Quizgame.ContentInputForm.resources
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\obj\Debug\Quizgame.QuizForm.resources
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\obj\Debug\Quizgame.Properties.Resources.resources
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\obj\Debug\Quizgame.csproj.GenerateResource.cache
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\obj\Debug\Quizgame.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\obj\Debug\Quizgame.csproj.Up2Date
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\obj\Debug\Quizgame.exe
+C:\Users\nguye\Desktop\2025\CSCI 3037\trash\Quizgame-20250131T184636Z-001\Quizgame\Quizgame\obj\Debug\Quizgame.pdb
