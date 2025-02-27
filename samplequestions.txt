@@ -1,0 +1,57 @@
+questions = [
+    {
+        'question': 'Who is considered the first anatomist to dissect human cadavers and provide a factual basis for anatomy?',
+        'options': {
+            'a': 'Galen',
+            'b': 'Herophilus',
+            'c': 'Leonardo da Vinci',
+            'd': 'Andreas Vesalius'
+        },
+        'correct': 'b',
+        'explanation': 'Herophilus, who flourished around 300 BCE, was the first to systematically dissect human cadavers, giving anatomy a considerable factual basis for the first time.'
+    },
+    {
+        'question': 'What is the primary difference between gross anatomy and microscopic anatomy?',
+        'options': {
+            'a': 'Gross anatomy studies living organisms, microscopic anatomy studies dead organisms',
+            'b': 'Gross anatomy uses magnifying devices, microscopic anatomy does not',
+            'c': 'Gross anatomy examines body structures visible to the naked eye, microscopic anatomy requires a light microscope',
+            'd': 'Gross anatomy is only concerned with human body structures'
+        },
+        'correct': 'c',
+        'explanation': 'Gross anatomy involves studying body structures large enough to be examined without magnifying devices, while microscopic anatomy focuses on structural units that can only be seen with a light microscope.'
+    },
+    {
+        'question': 'What significant contribution did Andreas Vesalius make to the field of anatomy?',
+        'options': {
+            'a': 'He was the first to perform human dissections',
+            'b': 'He created the first comprehensive illustrated anatomy textbook challenging Galen\'s traditional views',
+            'c': 'He discovered the circulation of the blood',
+            'd': 'He founded the Alexandrian medical school'
+        },
+        'correct': 'b',
+        'explanation': 'Vesalius wrote "De humani corporis fabrica libri septem", the first comprehensive and illustrated anatomy textbook. He encouraged scientists to verify traditional anatomy through observation, breaking Galen\'s long-standing authority.'
+    },
+    {
+        'question': 'What initially prevented systematic anatomical study in early civilizations?',
+        'options': {
+            'a': 'Lack of medical knowledge',
+            'b': 'Religious prohibitions',
+            'c': 'Superstitious awe and beliefs about the spirit of the departed soul',
+            'd': 'Insufficient technological tools'
+        },
+        'correct': 'c',
+        'explanation': 'The text states that early civilizations regarded human bodies with "superstitious awe" and were associated with "the spirit of the departed soul". Beliefs in life after death and uncertainty about bodily resurrection inhibited systematic anatomical study.'
+    },
+    {
+        'question': 'What is comparative anatomy primarily concerned with?',
+        'options': {
+            'a': 'Comparing human anatomy across different cultures',
+            'b': 'Studying the smallest structures of living organisms',
+            'c': 'Comparing body structures in different animal species to understand evolutionary adaptations',
+            'd': 'Identifying unique anatomical features in rare species'
+        },
+        'correct': 'c',
+        'explanation': 'Comparative anatomy compares similar body structures across different animal species to understand the adaptive changes they have undergone through the course of evolution.'
+    }
+]
