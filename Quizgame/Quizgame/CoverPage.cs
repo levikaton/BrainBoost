@@ -26,5 +26,17 @@ namespace Quizgame
         {
 
         }
+
+        private void ManualEntryBTN_Click(object sender, EventArgs e)
+        {
+            using (var contentForm = new ContentInputForm())
+            {
+                if (contentForm.ShowDialog() == DialogResult.OK && contentForm.GeneratedQuestions != null)
+                {
+                    var quizForm = new QuizForm(contentForm.GeneratedQuestions);
+                    quizForm.ShowDialog();
+                }
+            }
+        }
     }
 }

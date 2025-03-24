@@ -86,6 +86,7 @@
             this.ManualEntryBTN.TabIndex = 4;
             this.ManualEntryBTN.Text = "Manual Entry";
             this.ManualEntryBTN.UseVisualStyleBackColor = false;
+            this.ManualEntryBTN.Click += new System.EventHandler(this.ManualEntryBTN_Click);
             // 
             // CoverPage
             // 

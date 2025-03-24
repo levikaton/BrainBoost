@@ -83,6 +83,12 @@
     <Compile Include="ContentInputForm.Designer.cs">
       <DependentUpon>ContentInputForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="CoverPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CoverPage.Designer.cs">
+      <DependentUpon>CoverPage.cs</DependentUpon>
+    </Compile>
     <Compile Include="QuestionParserService.cs" />
     <Compile Include="QuizForm.cs">
       <SubType>Form</SubType>
@@ -95,6 +101,9 @@
     <EmbeddedResource Include="ContentInputForm.resx">
       <DependentUpon>ContentInputForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CoverPage.resx">
+      <DependentUpon>CoverPage.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuizForm.resx">
       <DependentUpon>QuizForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -106,6 +115,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -120,6 +130,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrainBoostLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrainBoostLogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BrainBoostLogo2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

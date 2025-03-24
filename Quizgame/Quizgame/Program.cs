@@ -16,14 +16,10 @@ namespace Quizgame
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-
-            using (var contentForm = new ContentInputForm())
-            {
-                if (contentForm.ShowDialog() == DialogResult.OK && contentForm.GeneratedQuestions != null)
-                {
-                    Application.Run(new QuizForm(contentForm.GeneratedQuestions));
-                }
-            }
+            Application.Run(new CoverPage());
+            
         }
+        
     }
+    
 }
