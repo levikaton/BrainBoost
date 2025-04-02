@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{25D8BB7A-E9C1-46D8-BFA5-EAE5A8EFB072}</ProjectGuid>
+    <ProjectGuid>{1C0C23FA-6811-47A0-976B-8BFC497C40A2}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>Quizgame</RootNamespace>
     <AssemblyName>Quizgame</AssemblyName>
@@ -77,11 +77,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AIService.cs" />
     <Compile Include="ContentInputForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ContentInputForm.Designer.cs">
       <DependentUpon>ContentInputForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContentInputFormAI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContentInputFormAI.Designer.cs">
+      <DependentUpon>ContentInputFormAI.cs</DependentUpon>
     </Compile>
     <Compile Include="CoverPage.cs">
       <SubType>Form</SubType>
@@ -100,6 +107,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ContentInputForm.resx">
       <DependentUpon>ContentInputForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContentInputFormAI.resx">
+      <DependentUpon>ContentInputFormAI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CoverPage.resx">
       <DependentUpon>CoverPage.cs</DependentUpon>

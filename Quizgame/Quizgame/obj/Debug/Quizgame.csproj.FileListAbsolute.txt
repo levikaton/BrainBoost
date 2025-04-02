@@ -96,3 +96,4 @@ C:\Users\levik\Visual proj\BrainBoost\Quizgame\Quizgame\bin\Debug\System.Text.Js
 C:\Users\levik\Visual proj\BrainBoost\Quizgame\Quizgame\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\levik\Visual proj\BrainBoost\Quizgame\Quizgame\bin\Debug\System.ValueTuple.xml
 C:\Users\levik\Visual proj\BrainBoost\Quizgame\Quizgame\obj\Debug\Quizgame.csproj.CopyComplete
+C:\Users\levik\Visual proj\BrainBoost\Quizgame\Quizgame\obj\Debug\Quizgame.ContentInputFormAI.resources

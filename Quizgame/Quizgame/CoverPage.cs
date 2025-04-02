@@ -17,16 +17,6 @@ namespace Quizgame
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LogoPNL_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void ManualEntryBTN_Click(object sender, EventArgs e)
         {
             using (var contentForm = new ContentInputForm())
@@ -35,6 +25,19 @@ namespace Quizgame
                 {
                     var quizForm = new QuizForm(contentForm.GeneratedQuestions);
                     quizForm.ShowDialog();
+                }
+            }
+        }
+
+        private void AutoGenerateBTN_Click(object sender, EventArgs e)
+        {
+
+            using (var contentForm = new ContentInputFormAI())
+            {
+                if (contentForm.ShowDialog() == DialogResult.OK && contentForm.GeneratedQuestions != null)
+                {
+                    var quizForm = new QuizForm(contentForm.GeneratedQuestions);
+                    quizForm.ShowDialog();  // Show the quiz form modally
                 }
             }
         }

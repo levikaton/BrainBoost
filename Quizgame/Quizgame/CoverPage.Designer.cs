@@ -39,28 +39,30 @@
             // 
             this.TopPNL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(255)))), ((int)(((byte)(198)))));
             this.TopPNL.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TopPNL.Location = new System.Drawing.Point(5, 5);
+            this.TopPNL.Location = new System.Drawing.Point(8, 8);
+            this.TopPNL.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.TopPNL.Name = "TopPNL";
-            this.TopPNL.Padding = new System.Windows.Forms.Padding(5);
-            this.TopPNL.Size = new System.Drawing.Size(821, 47);
+            this.TopPNL.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.TopPNL.Size = new System.Drawing.Size(1230, 72);
             this.TopPNL.TabIndex = 0;
             // 
             // LogoPNL
             // 
             this.LogoPNL.BackgroundImage = global::Quizgame.Properties.Resources.BrainBoostLogo2;
             this.LogoPNL.Dock = System.Windows.Forms.DockStyle.Left;
-            this.LogoPNL.Location = new System.Drawing.Point(5, 52);
+            this.LogoPNL.Location = new System.Drawing.Point(8, 80);
+            this.LogoPNL.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.LogoPNL.Name = "LogoPNL";
-            this.LogoPNL.Size = new System.Drawing.Size(298, 298);
+            this.LogoPNL.Size = new System.Drawing.Size(447, 458);
             this.LogoPNL.TabIndex = 1;
-            this.LogoPNL.Paint += new System.Windows.Forms.PaintEventHandler(this.LogoPNL_Paint);
             // 
             // QuizLBL
             // 
             this.QuizLBL.Font = new System.Drawing.Font("Showcard Gothic", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.QuizLBL.Location = new System.Drawing.Point(375, 86);
+            this.QuizLBL.Location = new System.Drawing.Point(562, 132);
+            this.QuizLBL.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.QuizLBL.Name = "QuizLBL";
-            this.QuizLBL.Size = new System.Drawing.Size(406, 89);
+            this.QuizLBL.Size = new System.Drawing.Size(609, 137);
             this.QuizLBL.TabIndex = 2;
             this.QuizLBL.Text = "Quiz Question Entry";
             this.QuizLBL.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -69,20 +71,23 @@
             // 
             this.AutoGenerateBTN.BackColor = System.Drawing.SystemColors.ControlText;
             this.AutoGenerateBTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AutoGenerateBTN.Location = new System.Drawing.Point(399, 188);
+            this.AutoGenerateBTN.Location = new System.Drawing.Point(598, 289);
+            this.AutoGenerateBTN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.AutoGenerateBTN.Name = "AutoGenerateBTN";
-            this.AutoGenerateBTN.Size = new System.Drawing.Size(157, 32);
+            this.AutoGenerateBTN.Size = new System.Drawing.Size(236, 49);
             this.AutoGenerateBTN.TabIndex = 3;
             this.AutoGenerateBTN.Text = "AI-Generated Questions";
             this.AutoGenerateBTN.UseVisualStyleBackColor = false;
+            this.AutoGenerateBTN.Click += new System.EventHandler(this.AutoGenerateBTN_Click);
             // 
             // ManualEntryBTN
             // 
             this.ManualEntryBTN.BackColor = System.Drawing.SystemColors.ControlText;
             this.ManualEntryBTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ManualEntryBTN.Location = new System.Drawing.Point(602, 188);
+            this.ManualEntryBTN.Location = new System.Drawing.Point(903, 289);
+            this.ManualEntryBTN.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ManualEntryBTN.Name = "ManualEntryBTN";
-            this.ManualEntryBTN.Size = new System.Drawing.Size(158, 32);
+            this.ManualEntryBTN.Size = new System.Drawing.Size(237, 49);
             this.ManualEntryBTN.TabIndex = 4;
             this.ManualEntryBTN.Text = "Manual Entry";
             this.ManualEntryBTN.UseVisualStyleBackColor = false;
@@ -90,10 +95,10 @@
             // 
             // CoverPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Desktop;
-            this.ClientSize = new System.Drawing.Size(831, 355);
+            this.ClientSize = new System.Drawing.Size(1246, 546);
             this.Controls.Add(this.ManualEntryBTN);
             this.Controls.Add(this.AutoGenerateBTN);
             this.Controls.Add(this.QuizLBL);
@@ -101,8 +106,9 @@
             this.Controls.Add(this.TopPNL);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "CoverPage";
-            this.Padding = new System.Windows.Forms.Padding(5);
+            this.Padding = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.Text = "CoverPage";
             this.ResumeLayout(false);
 
