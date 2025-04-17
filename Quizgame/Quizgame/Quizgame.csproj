@@ -96,6 +96,12 @@
     <Compile Include="CoverPage.Designer.cs">
       <DependentUpon>CoverPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="ResultsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResultsForm.Designer.cs">
+      <DependentUpon>ResultsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="QuestionParserService.cs" />
     <Compile Include="QuizForm.cs">
       <SubType>Form</SubType>
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CoverPage.resx">
       <DependentUpon>CoverPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResultsForm.resx">
+      <DependentUpon>ResultsForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="QuizForm.resx">
       <DependentUpon>QuizForm.cs</DependentUpon>
@@ -149,6 +158,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\BrainBoostLogo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitignore" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

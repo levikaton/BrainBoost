@@ -39,6 +39,7 @@
             this.nextButton = new System.Windows.Forms.Button();
             this.reviewButton = new System.Windows.Forms.Button();
             this.restartButton = new System.Windows.Forms.Button();
+            this.timerLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // questionLabel
@@ -148,11 +149,23 @@
             this.restartButton.UseVisualStyleBackColor = true;
             this.restartButton.Visible = false;
             // 
+            // timerLabel
+            // 
+            this.timerLabel.AutoSize = true;
+            this.timerLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.timerLabel.Location = new System.Drawing.Point(38, 600);
+            this.timerLabel.Name = "timerLabel";
+            this.timerLabel.Size = new System.Drawing.Size(83, 27);
+            this.timerLabel.TabIndex = 11;
+            this.timerLabel.Text = "Time: 00:00";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(978, 744);
+            this.Controls.Add(this.timerLabel);
             this.Controls.Add(this.restartButton);
             this.Controls.Add(this.reviewButton);
             this.Controls.Add(this.nextButton);
@@ -192,7 +205,7 @@
         private System.Windows.Forms.Button nextButton;
         private System.Windows.Forms.Button reviewButton;
         private System.Windows.Forms.Button restartButton;
- 
-        }
-}
+        private System.Windows.Forms.Label timerLabel;
 
+    }
+}

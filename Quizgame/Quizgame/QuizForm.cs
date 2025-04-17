@@ -28,6 +28,12 @@ namespace Quizgame
         private readonly Random random;
         private readonly Dictionary<string, Button> answerButtons; // Dictionary mapping answer keys to buttons
 
+        // Timer related fields
+        private Timer quizTimer;
+        private int elapsedSeconds;
+        private Dictionary<int, int> questionTimes; // Tracks time spent on each question
+        private int totalTimeSpent; // Total time for the entire quiz
+
         public QuizForm(List<Question> generatedQuestions)
         {
             // Initialize UI components (created by Form Designer)
@@ -37,6 +43,14 @@ namespace Quizgame
             originalQuestions = new List<Question>(generatedQuestions); // Ensure originalQuestions is immutable
             wrongQuestions = new List<Question>();
             random = new Random();
+
+            // Initialize timer components
+            quizTimer = new Timer();
+            quizTimer.Interval = 1000; // 1 second
+            quizTimer.Tick += QuizTimer_Tick;
+            elapsedSeconds = 0;
+            totalTimeSpent = 0;
+            questionTimes = new Dictionary<int, int>();
 
             // Initialize the answer buttons dictionary in the constructor
             answerButtons = new Dictionary<string, Button>
@@ -58,6 +72,26 @@ namespace Quizgame
         }
 
         /// <summary>
+        /// Timer tick event handler - updates the timer display
+        /// </summary>
+        private void QuizTimer_Tick(object sender, EventArgs e)
+        {
+            elapsedSeconds++;
+            totalTimeSpent++;
+            UpdateTimerDisplay();
+        }
+
+        /// <summary>
+        /// Updates the timer display with current elapsed time
+        /// </summary>
+        private void UpdateTimerDisplay()
+        {
+            int minutes = elapsedSeconds / 60;
+            int seconds = elapsedSeconds % 60;
+            timerLabel.Text = $"Time: {minutes:00}:{seconds:00}";
+        }
+
+        /// <summary>
         /// Starts a completely new quiz with original questions
         /// </summary>
         private void StartNewQuiz()
@@ -67,6 +101,14 @@ namespace Quizgame
             wrongQuestions = new List<Question>();
             reviewCount = 0;
             isReviewMode = false;
+
+            // Reset timer tracking
+            elapsedSeconds = 0;
+            totalTimeSpent = 0;
+            questionTimes.Clear();
+            UpdateTimerDisplay();
+            timerLabel.Visible = true;
+            quizTimer.Start();
 
             // Debugging: Verify the count of original and current questions
             Console.WriteLine($"Original Questions Count: {originalQuestions.Count}");
@@ -78,7 +120,7 @@ namespace Quizgame
                 button.Visible = true;
             }
 
-            // Make next button visible again (Add this line!)
+            // Make next button visible again
             nextButton.Visible = true;
 
             // Initialize the quiz
@@ -118,9 +160,15 @@ namespace Quizgame
         /// </summary>
         private void AnswerButton_Click(object sender, EventArgs e)
         {
+            // Stop the timer when an answer is selected
+            quizTimer.Stop();
+
             var selectedButton = (Button)sender;
             var selectedAnswer = (string)selectedButton.Tag;
             var currentQuestion = currentQuestions[currentQuestionIndex];
+
+            // Record time for this question
+            questionTimes[currentQuestionIndex] = elapsedSeconds;
 
             // Disable all answer buttons after selection
             foreach (var button in answerButtons.Values)
@@ -192,6 +240,15 @@ namespace Quizgame
         /// </summary>
         private void nextButton_Click(object sender, EventArgs e)
         {
+            // Reset elapsed time for next question
+            if (currentQuestionIndex + 1 < totalQuestions)
+            {
+                // Start timing for the next question
+                elapsedSeconds = 0;
+                UpdateTimerDisplay();
+                quizTimer.Start();
+            }
+
             currentQuestionIndex++;
             DisplayCurrentQuestion();
         }
@@ -209,6 +266,14 @@ namespace Quizgame
 
             isReviewMode = true;
             reviewCount++;
+
+            // Reset timer for review mode
+            elapsedSeconds = 0;
+            totalTimeSpent = 0;
+            questionTimes.Clear();
+            UpdateTimerDisplay();
+            timerLabel.Visible = true;
+            quizTimer.Start();
 
             // Show all UI elements
             foreach (var button in answerButtons.Values)
@@ -298,62 +363,59 @@ namespace Quizgame
         /// </summary>
         private void ShowQuizResults()
         {
-            double percentage = (score / (double)totalQuestions) * 100;
+            // Stop the timer and hide timer label
+            quizTimer.Stop();
+            timerLabel.Visible = false;
 
-            // Build result message
-            string resultMessage = BuildResultMessage(percentage);
-
-            // Update UI
-            questionLabel.Text = resultMessage;
-            feedbackLabel.Text = "";
-            explanationTextBox.Text = "";
-            nextButton.Visible = false;
-
-            // Hide answer buttons
-            foreach (var button in answerButtons.Values)
+            // Calculate average time
+            int avgTime = 0;
+            if (questionTimes.Count > 0)
             {
-                button.Visible = false;
+                avgTime = (int)questionTimes.Values.Average();
             }
 
-            // Show appropriate controls based on state
-            if (wrongQuestions.Any() && reviewCount < 2)
+            // Launch the results form
+            using (var resultsForm = new ResultsForm(
+                score,
+                totalQuestions,
+                totalTimeSpent,
+                wrongQuestions,
+                isReviewMode,
+                reviewCount))
             {
-                feedbackLabel.Text = $"You have {wrongQuestions.Count} questions to review.";
-                reviewButton.Visible = true;
+                if (resultsForm.ShowDialog() == DialogResult.OK)
+                {
+                    // Handle the user's choice
+                    switch (resultsForm.UserChoice)
+                    {
+                        case ResultsForm.ResultAction.ReviewWrongQuestions:
+                            reviewButton_Click(this, EventArgs.Empty);
+                            break;
+
+                        case ResultsForm.ResultAction.StartNewQuiz:
+                            StartNewQuiz();
+                            break;
+                    }
+                }
+                else
+                {
+                    // If dialog was canceled/closed without a choice, just show restart button
+                    // Hide answer buttons
+                    foreach (var button in answerButtons.Values)
+                    {
+                        button.Visible = false;
+                    }
+
+                    // Update UI elements
+                    questionLabel.Text = "Quiz Completed!";
+                    scoreLabel.Text = $"Score: {score}/{totalQuestions}";
+                    nextButton.Visible = false;
+                    explanationTextBox.Text = "";
+                    feedbackLabel.Text = "Quiz completed. Start a new quiz!";
+                    reviewButton.Visible = false;
+                    restartButton.Visible = true;
+                }
             }
-            else if (reviewCount >= 2 || !wrongQuestions.Any())
-            {
-                feedbackLabel.Text = "Quiz completed. Start a new quiz!";
-                reviewButton.Visible = false;
-            }
-
-            restartButton.Visible = true;
-        }
-
-        /// <summary>
-        /// Builds the result message based on the score
-        /// </summary>
-        private string BuildResultMessage(double percentage)
-        {
-            string resultMessage = $"Quiz Completed!\n\n" +
-                                 $"Final Score: {score}/{totalQuestions}\n" +
-                                 $"Percentage: {percentage:F2}%\n\n";
-
-            // Add performance message
-            if (percentage >= 90)
-                resultMessage += "Excellent job! 🌟";
-            else if (percentage >= 70)
-                resultMessage += "Good work! 👍";
-            else
-                resultMessage += "Keep practicing! 💪";
-
-            // Add review round info if applicable
-            if (isReviewMode)
-            {
-                resultMessage += $"\n\nReview Round: {reviewCount}/2";
-            }
-
-            return resultMessage;
         }
     }
 
