@@ -6,6 +6,8 @@ using System.Text.Json;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
+using Novacode;
+using System.Drawing;
 
 namespace Quizgame
 {
@@ -126,6 +128,60 @@ Important requirements:
             catch (Exception ex)
             {
                 throw new Exception($"API request failed: {ex.Message}");
+            }
+        }
+
+        public void SaveQuestionsAsDocx(List<Question> questions, string filePath)
+        {
+            try
+            {
+                using (var doc = DocX.Create(filePath))
+                {
+                    // Title
+                    var title = doc.InsertParagraph("Quiz Questions")
+                                   .FontSize(18)
+                                   .Bold();
+                    title.Alignment = Alignment.center;
+
+                    for (int i = 0; i < questions.Count; i++)
+                    {
+                        var q = questions[i];
+                        if (string.IsNullOrWhiteSpace(q.QuestionText) || q.Options == null || string.IsNullOrWhiteSpace(q.CorrectAnswer))
+                            continue;
+
+                        // Question
+                        doc.InsertParagraph($"Question {i + 1}: {q.QuestionText}")
+                            .FontSize(12)
+                            .Bold();
+
+                        // Options
+                        foreach (var option in q.Options)
+                        {
+                            doc.InsertParagraph($"{option.Key}) {option.Value}")
+                                .FontSize(11)
+                                .IndentationBefore = 1.0f;
+                        }
+
+                        // Correct Answer
+                        doc.InsertParagraph($"Correct Answer: {q.CorrectAnswer}")
+                            .FontSize(11)
+                            .Color(Color.Green)
+                            .Italic();
+
+                        // Explanation
+                        doc.InsertParagraph($"Explanation: {q.Explanation}")
+                            .FontSize(11)
+                            .SpacingAfter(15);
+                    }
+
+                    doc.Save();
+                }
+
+                System.Windows.Forms.MessageBox.Show("Questions saved successfully as .docx!", "Success");
+            }
+            catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show($"Failed to save questions as .docx: {ex.Message}", "Error");
             }
         }
 

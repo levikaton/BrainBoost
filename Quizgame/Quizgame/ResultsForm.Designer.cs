@@ -47,6 +47,7 @@
             this.btnStartNewQuiz = new System.Windows.Forms.Button();
             this.btnCopyResults = new System.Windows.Forms.Button();
             this.chartPanel = new System.Windows.Forms.Panel();
+            this.btnSaveToFile = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblTitle
@@ -96,7 +97,7 @@
             // progressBarScore
             // 
             this.progressBarScore.Location = new System.Drawing.Point(226, 66);
-            this.progressBarScore.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.progressBarScore.Margin = new System.Windows.Forms.Padding(2);
             this.progressBarScore.Name = "progressBarScore";
             this.progressBarScore.Size = new System.Drawing.Size(333, 19);
             this.progressBarScore.TabIndex = 4;
@@ -184,7 +185,7 @@
             this.lstImprovementTips.FormattingEnabled = true;
             this.lstImprovementTips.ItemHeight = 15;
             this.lstImprovementTips.Location = new System.Drawing.Point(57, 196);
-            this.lstImprovementTips.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.lstImprovementTips.Margin = new System.Windows.Forms.Padding(2);
             this.lstImprovementTips.Name = "lstImprovementTips";
             this.lstImprovementTips.Size = new System.Drawing.Size(335, 64);
             this.lstImprovementTips.TabIndex = 12;
@@ -216,7 +217,7 @@
             // 
             this.btnReviewWrong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReviewWrong.Location = new System.Drawing.Point(57, 320);
-            this.btnReviewWrong.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnReviewWrong.Margin = new System.Windows.Forms.Padding(2);
             this.btnReviewWrong.Name = "btnReviewWrong";
             this.btnReviewWrong.Size = new System.Drawing.Size(167, 26);
             this.btnReviewWrong.TabIndex = 15;
@@ -228,7 +229,7 @@
             // 
             this.btnStartNewQuiz.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStartNewQuiz.Location = new System.Drawing.Point(377, 320);
-            this.btnStartNewQuiz.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnStartNewQuiz.Margin = new System.Windows.Forms.Padding(2);
             this.btnStartNewQuiz.Name = "btnStartNewQuiz";
             this.btnStartNewQuiz.Size = new System.Drawing.Size(167, 26);
             this.btnStartNewQuiz.TabIndex = 16;
@@ -240,7 +241,7 @@
             // 
             this.btnCopyResults.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCopyResults.Location = new System.Drawing.Point(244, 320);
-            this.btnCopyResults.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCopyResults.Margin = new System.Windows.Forms.Padding(2);
             this.btnCopyResults.Name = "btnCopyResults";
             this.btnCopyResults.Size = new System.Drawing.Size(113, 26);
             this.btnCopyResults.TabIndex = 17;
@@ -251,17 +252,28 @@
             // chartPanel
             // 
             this.chartPanel.Location = new System.Drawing.Point(442, 169);
-            this.chartPanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.chartPanel.Margin = new System.Windows.Forms.Padding(2);
             this.chartPanel.Name = "chartPanel";
             this.chartPanel.Size = new System.Drawing.Size(117, 114);
             this.chartPanel.TabIndex = 18;
             this.chartPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.chartPanel_Paint);
+            // 
+            // btnSaveToFile
+            // 
+            this.btnSaveToFile.Location = new System.Drawing.Point(491, 363);
+            this.btnSaveToFile.Name = "btnSaveToFile";
+            this.btnSaveToFile.Size = new System.Drawing.Size(106, 27);
+            this.btnSaveToFile.TabIndex = 19;
+            this.btnSaveToFile.Text = "Save To File";
+            this.btnSaveToFile.UseVisualStyleBackColor = true;
+            this.btnSaveToFile.Click += new System.EventHandler(this.btnSaveToFile_Click);
             // 
             // ResultsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(621, 402);
+            this.Controls.Add(this.btnSaveToFile);
             this.Controls.Add(this.chartPanel);
             this.Controls.Add(this.btnCopyResults);
             this.Controls.Add(this.btnStartNewQuiz);
@@ -282,7 +294,7 @@
             this.Controls.Add(this.lblScore);
             this.Controls.Add(this.lblTitle);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
             this.Name = "ResultsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -313,5 +325,6 @@
         private System.Windows.Forms.Button btnStartNewQuiz;
         private System.Windows.Forms.Button btnCopyResults;
         private System.Windows.Forms.Panel chartPanel;
+        private System.Windows.Forms.Button btnSaveToFile;
     }
 }

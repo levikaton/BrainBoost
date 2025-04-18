@@ -18,6 +18,7 @@ namespace Quizgame
         private List<Question> wrongQuestions;
         private bool isReviewMode;
         private int reviewCount;
+        private List<Question> allQuestions;
 
         // Result of user's choice
         public enum ResultAction
@@ -30,7 +31,7 @@ namespace Quizgame
         public ResultAction UserChoice { get; private set; }
 
         public ResultsForm(int score, int totalQuestions, int totalTimeSpent,
-                          List<Question> wrongQuestions, bool isReviewMode, int reviewCount)
+                   List<Question> wrongQuestions, List<Question> allQuestions, bool isReviewMode, int reviewCount)
         {
             InitializeComponent();
 
@@ -39,6 +40,7 @@ namespace Quizgame
             this.totalQuestions = totalQuestions;
             this.totalTimeSpent = totalTimeSpent;
             this.wrongQuestions = wrongQuestions;
+            this.allQuestions = allQuestions;
             this.isReviewMode = isReviewMode;
             this.reviewCount = reviewCount;
 
@@ -202,6 +204,24 @@ namespace Quizgame
 
             Clipboard.SetText(resultText);
             MessageBox.Show("Results copied to clipboard!", "Share Results", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnSaveToFile_Click(object sender, EventArgs e)
+        {
+            {
+                SaveFileDialog dialog = new SaveFileDialog
+                {
+                    Filter = "Word Document (*.docx)|*.docx",
+                    Title = "Save All Quiz Questions",
+                    FileName = "QuizQuestions.docx"
+                };
+
+                if (dialog.ShowDialog() == DialogResult.OK)
+                {
+                    var aiService = new AIService();
+                    aiService.SaveQuestionsAsDocx(allQuestions, dialog.FileName);
+                }
+            }
         }
     }
 }

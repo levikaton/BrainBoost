@@ -14,6 +14,7 @@ namespace Quizgame
     {
         // Core data structures for managing questions
         private readonly List<Question> originalQuestions;  // Immutable list of original questions
+        private readonly List<Question> allQuestions;
         private List<Question> currentQuestions;           // Current active question set
         private List<Question> wrongQuestions;             // Questions answered incorrectly
 
@@ -41,6 +42,7 @@ namespace Quizgame
 
             // Initialize core components
             originalQuestions = new List<Question>(generatedQuestions); // Ensure originalQuestions is immutable
+            allQuestions = new List<Question>(generatedQuestions);       // Add this
             wrongQuestions = new List<Question>();
             random = new Random();
 
@@ -380,6 +382,7 @@ namespace Quizgame
                 totalQuestions,
                 totalTimeSpent,
                 wrongQuestions,
+                allQuestions,
                 isReviewMode,
                 reviewCount))
             {
