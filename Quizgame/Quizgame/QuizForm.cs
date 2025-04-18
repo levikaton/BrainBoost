@@ -376,6 +376,11 @@ namespace Quizgame
                 avgTime = (int)questionTimes.Values.Average();
             }
 
+            // Prompt and save score to DB
+            string username = Prompt.ShowDialog("Enter your name to save your score:", "Save Score");
+            var db = new ScoreDataAccess();
+            db.SaveScore(username, score, totalQuestions);
+
             // Launch the results form
             using (var resultsForm = new ResultsForm(
                 score,

@@ -99,3 +99,8 @@ C:\Users\levik\Visual proj\BrainBoost\Quizgame\Quizgame\obj\Debug\Quizgame.cspro
 C:\Users\levik\Visual proj\BrainBoost\Quizgame\Quizgame\obj\Debug\Quizgame.ContentInputFormAI.resources
 C:\Users\levik\Visual proj\BrainBoost\Quizgame\Quizgame\obj\Debug\Quizgame.ResultsForm.resources
 C:\Users\levik\Visual proj\BrainBoost\Quizgame\Quizgame\bin\Debug\DocX.dll
+C:\Users\levik\Visual proj\BrainBoost\Quizgame\Quizgame\bin\Debug\RealQuizGameDB.mdf
+C:\Users\levik\Visual proj\BrainBoost\Quizgame\Quizgame\bin\Debug\RealQuizGameDB_log.ldf
+C:\Users\levik\Visual proj\BrainBoost\Quizgame\Quizgame\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\levik\Visual proj\BrainBoost\Quizgame\Quizgame\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\levik\Visual proj\BrainBoost\Quizgame\Quizgame\obj\Debug\Quizgame.ScoreForm.resources

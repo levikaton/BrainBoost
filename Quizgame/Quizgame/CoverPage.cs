@@ -41,5 +41,11 @@ namespace Quizgame
                 }
             }
         }
+
+        private void ViewScoresBTN_Click(object sender, EventArgs e)
+        {
+            var scoreForm = new ScoreForm();
+            scoreForm.ShowDialog();
+        }
     }
 }
