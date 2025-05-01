@@ -13,16 +13,19 @@ namespace Quizgame
 {
     public partial class ScoreForm : Form
     {
+        // Handles access to the database
         private readonly ScoreDataAccess _dataAccess = new ScoreDataAccess();
+        // Displays score data
         private DataGridView scoresDataGridView;
 
         public ScoreForm()
         {
             InitializeComponent();
-            InitializeCustomDataGridView();
-            LoadScores();
+            InitializeCustomDataGridView();  // Set up visual layout
+            LoadScores();  // Load score data into the grid
         }
 
+        // Creates and styles the DataGridView
         private void InitializeCustomDataGridView()
         {
             scoresDataGridView = new DataGridView
@@ -53,6 +56,7 @@ namespace Quizgame
             this.Controls.Add(scoresDataGridView);
         }
 
+        // Loads score data from the database into the DataGridView
         private void LoadScores()
         {
             var scores = _dataAccess.GetAllScores();

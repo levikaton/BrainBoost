@@ -17,6 +17,7 @@ namespace Quizgame
             InitializeComponent();
         }
 
+        // Opens the manual question entry form
         private void ManualEntryBTN_Click(object sender, EventArgs e)
         {
             using (var contentForm = new ContentInputForm())
@@ -29,6 +30,7 @@ namespace Quizgame
             }
         }
 
+        // Opens the AI-generated quiz form
         private void AutoGenerateBTN_Click(object sender, EventArgs e)
         {
 
@@ -42,6 +44,7 @@ namespace Quizgame
             }
         }
 
+        // Opens the form to view previously saved quiz scores
         private void ViewScoresBTN_Click(object sender, EventArgs e)
         {
             var scoreForm = new ScoreForm();
